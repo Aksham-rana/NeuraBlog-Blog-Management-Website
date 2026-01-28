@@ -1,16 +1,189 @@
-# React + Vite
+# 🧠 NeuraBlog – MERN Stack Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NeuraBlog is a **full-stack blogging platform** built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
+It allows users to read blogs and interact via comments, while admins can securely manage blogs, categories, and comments through a dedicated dashboard.
 
-Currently, two official plugins are available:
+This project demonstrates real-world **CRUD operations, authentication, admin panel workflows, and clean UI design**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌐 Public (User Side)
+- Browse all published blogs
+- Filter blogs by category (Technology, Startup, Lifestyle, Finance, etc.)
+- Search blogs by title
+- View full blog details
+- Read approved comments
+- Share blogs on social media
+- Subscribe via email (UI ready)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Admin Panel
+- Secure admin login
+- Dashboard analytics:
+  - Total blogs
+  - Total comments
+  - Draft count
+- Add new blogs with:
+  - Title & subtitle
+  - Rich text editor
+  - Thumbnail upload
+  - Category selection
+  - Publish / Draft option
+- Blog management:
+  - View all blogs
+  - Publish / Unpublish blogs
+  - Delete blogs
+- Comment moderation:
+  - Approve / unapprove comments
+  - Delete comments
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- Axios
+- Rich Text Editor
+- CSS / Modern UI Design
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- bcrypt.js
+- Express Validator
+
+### Database
+- MongoDB (NoSQL)
+
+---
+
+## 📂 Project Structure
+
+NeuraBlog/
+│
+├── client/ # React frontend
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ └── App.js
+│
+├── server/ # Node + Express backend
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+│ ├── middlewares/
+│ └── server.js
+│
+└── README.md
+
+---
+
+---
+
+## 🔑 Authentication Flow
+
+- Admin login uses **JWT (JSON Web Token)**
+- Token stored securely on client side
+- Protected routes for admin dashboard
+- Unauthorized users cannot access admin routes
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/NeuraBlog.git
+cd NeuraBlog
+
+---
+
+2️⃣ Backend Setup
+cd server
+npm install
+
+Create a .env file inside server/:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Run backend: npm start
+
+---
+
+3️⃣ Frontend Setup
+cd client
+npm install
+npm run dev
+
+---
+
+🎯 Future Improvements
+
+
+User authentication (login/signup)
+
+
+Like & bookmark blogs
+
+
+Role-based access (Admin / Editor)
+
+
+Pagination & infinite scrolling
+
+
+SEO optimization
+
+
+Cloud image storage (Cloudinary / S3)
+
+
+
+👨‍💻 Author
+Aksham Rana
+Frontend & MERN Stack Developer
+📍 India
+
+
+GitHub: https://github.com/your-username
+
+
+LinkedIn: https://linkedin.com/in/your-profile
+
+
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and learn from it.
+
+⭐ If you like this project, don’t forget to star the repo!
+
+---
+
+### 🔥 Pro Tip for GitHub
+If you want, next I can:
+- Add **badges** (MERN, MongoDB, React, Node)
+- Rewrite this for **recruiter-friendly README**
+- Create a **resume project description**
+- Help you deploy it (Vercel + Render)
+
+Just tell me 👊
+
+---
+
+👨‍💻 Author
+
+Aksham Rana
+Frontend & MERN Stack Developer
+📍 India
+
+LinkedIn: https://www.linkedin.com/in/aksham-rana-63729a23b/ 
