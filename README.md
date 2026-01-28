@@ -110,42 +110,38 @@ NeuraBlog/
 git clone https://github.com/Aksham-rana/NeuraBlog.git
 cd NeuraBlog
 
-### 2️⃣ Backend Setup
-```bash
+2️⃣ Backend Setup
 cd server
 npm install
 
-Create a .env file inside server/:
-```bash
+Create a .env file inside the server/ directory:
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-Run backend:
-```bash
-npm star
+Run the backend server: npm start
 
 3️⃣ Frontend Setup
-```bash
 cd client
 npm install
 npm run dev
 
 ---
 
-## 🎯 Future Improvements
+🎯 Future Improvements
 
-User authentication (login/signup)
+User authentication (Login / Signup)
 
 Like & bookmark blogs
 
-Role-based access (Admin / Editor)
+Role-based access control (Admin / Editor)
 
 Pagination & infinite scrolling
 
 SEO optimization
 
-Cloud image storage (Cloudinary / S3)
+Cloud image storage (Cloudinary / AWS S3)
 
 ---
 
@@ -155,5 +151,5 @@ Aksham Rana
 Frontend & MERN Stack Developer
 📍 India
 
-
-LinkedIn: https://www.linkedin.com/in/aksham-rana-63729a23b/
+🔗 LinkedIn:
+https://www.linkedin.com/in/aksham-rana-63729a23b/
