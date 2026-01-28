@@ -125,6 +125,7 @@ npm install
 npm run dev
 
 ---
+---
 
 ## 🎯 Future Improvements
 
@@ -146,6 +147,7 @@ SEO optimization
 
 Cloud image storage (Cloudinary / S3)
 
+---
 ---
 
 ## 👨‍💻 Author
