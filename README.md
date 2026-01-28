@@ -98,14 +98,14 @@ NeuraBlog/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/NeuraBlog.git
 cd NeuraBlog
 
 ---
 
-### 2️⃣ Backend Setup
+## 2️⃣ Backend Setup
 cd server
 npm install
 
@@ -119,14 +119,14 @@ Run backend: npm start
 
 ---
 
-### 3️⃣ Frontend Setup
+## 3️⃣ Frontend Setup
 cd client
 npm install
 npm run dev
 
 ---
 
-### 🎯 Future Improvements
+## 🎯 Future Improvements
 
 
 User authentication (login/signup)
@@ -148,7 +148,7 @@ Cloud image storage (Cloudinary / S3)
 
 ---
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 Aksham Rana
 Frontend & MERN Stack Developer
