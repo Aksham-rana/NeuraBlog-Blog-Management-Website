@@ -105,7 +105,7 @@ cd NeuraBlog
 
 ---
 
-2️⃣ Backend Setup
+### 2️⃣ Backend Setup
 cd server
 npm install
 
@@ -119,14 +119,14 @@ Run backend: npm start
 
 ---
 
-3️⃣ Frontend Setup
+### 3️⃣ Frontend Setup
 cd client
 npm install
 npm run dev
 
 ---
 
-🎯 Future Improvements
+### 🎯 Future Improvements
 
 
 User authentication (login/signup)
@@ -146,41 +146,9 @@ SEO optimization
 
 Cloud image storage (Cloudinary / S3)
 
-
-
-👨‍💻 Author
-Aksham Rana
-Frontend & MERN Stack Developer
-📍 India
-
-
-GitHub: https://github.com/your-username
-
-
-LinkedIn: https://linkedin.com/in/your-profile
-
-
-
-📜 License
-This project is licensed under the MIT License.
-Feel free to use, modify, and learn from it.
-
-⭐ If you like this project, don’t forget to star the repo!
-
 ---
 
-### 🔥 Pro Tip for GitHub
-If you want, next I can:
-- Add **badges** (MERN, MongoDB, React, Node)
-- Rewrite this for **recruiter-friendly README**
-- Create a **resume project description**
-- Help you deploy it (Vercel + Render)
-
-Just tell me 👊
-
----
-
-👨‍💻 Author
+### 👨‍💻 Author
 
 Aksham Rana
 Frontend & MERN Stack Developer
