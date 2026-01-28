@@ -94,66 +94,66 @@ NeuraBlog/
 - Protected routes for admin dashboard
 - Unauthorized users cannot access admin routes
 
+## 🔑 Authentication Flow
+
+- Admin login uses **JWT (JSON Web Token)**
+- Token stored securely on client side
+- Protected routes for admin dashboard
+- Unauthorized users cannot access admin routes
+
 ---
 
 ## ⚙️ Installation & Setup
 
-## 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/NeuraBlog.git
+git clone https://github.com/Aksham-rana/NeuraBlog.git
 cd NeuraBlog
 
----
-
-## 2️⃣ Backend Setup
+### 2️⃣ Backend Setup
+```bash
 cd server
 npm install
 
 Create a .env file inside server/:
-
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-Run backend: npm start
+Run backend:
+```bash
+npm star
 
----
-
-## 3️⃣ Frontend Setup
+3️⃣ Frontend Setup
+```bash
 cd client
 npm install
 npm run dev
 
 ---
----
 
 ## 🎯 Future Improvements
 
-
 User authentication (login/signup)
-
 
 Like & bookmark blogs
 
-
 Role-based access (Admin / Editor)
-
 
 Pagination & infinite scrolling
 
-
 SEO optimization
-
 
 Cloud image storage (Cloudinary / S3)
 
 ---
----
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Aksham Rana
 Frontend & MERN Stack Developer
 📍 India
 
-LinkedIn: https://www.linkedin.com/in/aksham-rana-63729a23b/ 
+
+LinkedIn: https://www.linkedin.com/in/aksham-rana-63729a23b/
